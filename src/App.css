@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Kalam|Lemonada&display=swap');
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.quote-box {
+  margin: 0 10% 0 10%;
+  width: 100%;
+}
+
+#text {
+  font-family: 'Caveat', cursive;
+  font-weight: lighter;
+  font-size: 40px;  
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+#author {
+  font-family: 'Caveat', cursive;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+#new-quote {
+  background-color: white;
+  border: none;
+  outline: none;
+  height: 90vh;
+  width: 75%;
+}
+
+.link-button {
+  background: none;
+  outline: none;
+  border: 0px solid white;
+}
+
+.link-img {
+  height: 30px;
+  width: 30px;
+}
+
+.copyright {
+  font-size: 15px;
+  font-weight: lighter;
+}
